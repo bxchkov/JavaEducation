@@ -23,7 +23,7 @@ public class task3_1 {
                     System.out.println("К числам Фибоначчи добавлено число " + nums[i]);
                     i++;
                 }
-                System.out.println("По итогу последовательность чисел Фибоначчи: " + Arrays.toString(nums));
+                System.out.println("Итоговая последовательность чисел Фибоначчи: " + Arrays.toString(nums));
             }
             catch (NumberFormatException exception){
                 System.out.println("Это не число, попробуйте снова:");

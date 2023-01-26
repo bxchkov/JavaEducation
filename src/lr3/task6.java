@@ -8,7 +8,10 @@ public class task6 {
         Scanner in = new Scanner(System.in);
         int num = 0;
         int[] nums = new int[0];
-        System.out.println("Программа выводит массив из чисел, \nкоторые при делении на 5 дают в остатке 2. \nВведите целое число(n), определяющее кол-во чисел/длину массива:");
+        System.out.println("""
+                Программа выводит массив из чисел,
+                которые при делении на 5 дают в остатке 2.
+                Введите целое число(n), определяющее кол-во чисел/длину массива:""");
         while (num < 1){
             String line = in.next();
             try {
@@ -33,7 +36,7 @@ public class task6 {
                 }
             }
             catch (NumberFormatException exception){
-                System.out.println("Это не число, попробуйте снова:");
+                System.out.println("Это не целое число, попробуйте снова:");
             }
         }
     }

@@ -19,7 +19,7 @@ public class task4_1 {
                     try {
                         num2 = Integer.parseInt(line2);
                         if (num2 <= num1){
-                            System.out.println("Второе целое число должно быть больше первого(" + num1 + "):");
+                            System.out.println("Второе целое число должно быть больше первого (" + num1 + "):");
                         } else {
                             System.out.println("Перечисляю числа с " + num1 + " по " + num2 + ":");
                             for (int i = num1; i <= num2; i++){

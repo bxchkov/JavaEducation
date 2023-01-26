@@ -9,7 +9,10 @@ public class task5_2 {
         int num = 0;
         int sum = 0;
         int[] nums = new int[0];
-        System.out.println("Программа выводит сумму n-го кол-ва чисел, \nкоторые при делении на 5 имеют остаток 1, а при 3 - 1. \nВведите число(n), определяющее кол-во чисел/длину массива:");
+        System.out.println("""
+                Программа выводит сумму n-го кол-ва чисел,
+                которые при делении на 5 имеют остаток 1, а при 3 - 1.
+                Введите число(n), определяющее кол-во чисел/длину массива:""");
         while (num < 2){
             String line = in.next();
             try {
@@ -33,7 +36,7 @@ public class task5_2 {
                 System.out.println("Сумма " + num + " чисел, отвечающих требованиям: " + Arrays.toString(nums) + ", равна " + sum);
             }
             catch (NumberFormatException exception){
-                System.out.println("Это не число, попробуйте снова:");
+                System.out.println("Это не целое число, попробуйте снова:");
             }
         }
     }
