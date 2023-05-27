@@ -1,8 +1,8 @@
-package timus.task1293;
+package timus;
 
 import java.util.Scanner;
 
-public class Main {
+public class task1293 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
